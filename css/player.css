@@ -1,0 +1,174 @@
+#progressContent {
+	width: 700px;
+	height: 30px;
+	margin: auto;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	right: 0;
+	left: 0;
+	bottom: 5px;
+}
+
+#progressBar {
+	width:500px;
+	height:20px;
+	left:100px;
+	border:1px solid rgba(255,255,255,0.4);
+	position:absolute;
+	bottom:4px;
+	z-index:800;
+}
+
+#progressBar .progress {
+	height:20px;
+	background-color: rgba(255,255,255,0.4);
+	display:inline-block;
+	position:absolute;
+	z-index:7;
+}
+
+
+.positionAction {
+	position: absolute;
+	z-index: 10;
+	bottom: 7px;
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.dot_content {
+	display:none;
+}
+
+.positionAction:hover {
+	background-color: red;
+}
+
+#timeProgress {
+	position: absolute;
+	right: 5px;
+	bottom: 8px;
+	color: white;
+}
+
+#action {
+	width: 68px;
+	height: 30px;
+}
+
+
+#playPause {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	left: 5px;	
+}
+
+.play {
+	background: url(../img/pause.png) no-repeat;
+}
+
+.pause {
+	background: url(../img/play.png) no-repeat;
+}
+
+#playerOnOff {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 5px;
+}
+
+.playerOn {
+	background: url(../img/playerOn.png) no-repeat;
+}
+
+.playerOff {
+	background: url(../img/playerOff.png) no-repeat;
+}
+
+
+#after_video {
+	display: block;
+	position: absolute;
+	opacity: 0;
+	z-index: -999;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height:210px;
+	top:200px;	
+	transition: all 1s ease-in-out;
+	color: #FFFFFF;
+	text-align:center;
+	overflow:hidden;
+}
+#after_video img {
+	height: 35px;
+	position: relative;
+	top: 10px;
+	margin-right: 5px;
+}
+
+#after_content {
+	text-align: center;	
+}
+#after_content h1 {
+	font-size: 100px;
+}
+.source { font-style: italic; }
+.source a { text-decoration: underline; }
+.source a:hover { color: rgb(154,11,29); }
+
+#after_video ul {
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: 0px;
+	width: 100%;
+	height: 48px;
+	text-align: center;
+}
+#after_video ul li {
+	display: inline-block;
+	z-index: 5;
+	height: 100%;
+	font-size: 18px;
+	width: 200px;
+	text-align: center;
+}
+#after_video ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@-webkit-keyframes bounce {
+	0% { top:3px; }
+	25% { top:-7px; }
+	50% { top:3px; }
+	75% { top:-7px; }
+	100% { top:3px;}
+}
+
+.bounce {
+	-webkit-animation: bounce 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

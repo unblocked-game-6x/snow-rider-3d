@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<title>The Escape Road</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/ico" href="../img/favicon.ico" />
+</head>
+<body>
+	<img class="logo" title="The Escape Road Logo" alt="The Escape Road Logo" src="../img/logo_v1.png">
+	<div id="connect">
+		<p id="text">Please enter the 4 digit code displayed on your computer.</p>
+
+		<form id='connection' action=''>
+			<input id='roomID' oninput="model.maxLengthCheck(this)" maxlength='4'  type='number' placeholder="1234" required>
+			<input type='submit' value="Connect">
+		</form>	
+	</div>
+	<div style="opacity:0" id="content">
+
+	</div>
+
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+	<script type="text/javascript" src="js/model.js"></script>
+	<script type="text/javascript" src="js/UI.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</body>
+</html>

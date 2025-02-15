@@ -1,0 +1,4 @@
+[
+  {"stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#2f343b"}]},
+  
+  {"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"visibility":"off"},{"color":"#2f343b"},{"weight":1}]}]
